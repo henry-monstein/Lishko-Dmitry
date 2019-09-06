@@ -1,6 +1,6 @@
 package com.andersenlab.testtask.dmitrylishko.run;
 
-import com.andersenlab.testtask.dmitrylishko.model.logic.Task;
+import com.andersenlab.testtask.dmitrylishko.model.logic.LishkoDmitry;
 import com.andersenlab.testtask.dmitrylishko.view.Printer;
 import com.andersenlab.testtask.dmitrylishko.view.Read;
 
@@ -25,16 +25,16 @@ public class Menu {
             switch (choice) {
                 case 1: {
                     pr.printToConsole("Enter number: ");
-                    new Task().task1();
+                    new LishkoDmitry().task1();
                     break;
                 }
                 case 2: {
                     pr.printToConsole("Enter name: ");
-                    new Task().task2();
+                    new LishkoDmitry().task2();
                     break;
                 }
                 case 3: {
-                    new Task().task3();
+                    new LishkoDmitry().task3();
                     break;
                 }
                 default: {

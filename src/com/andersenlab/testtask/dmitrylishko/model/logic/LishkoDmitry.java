@@ -7,14 +7,14 @@ import com.andersenlab.testtask.dmitrylishko.view.Read;
 
 import java.util.Arrays;
 
-public class Task {
+public class LishkoDmitry {
     public static final String FILE_NAME="resources/output.txt";
     public static final String NAME = "Вячеслав";
     private Printer pr;
     private Read rd;
 
 
-    public Task() {
+    public LishkoDmitry() {
         this.pr = new Printer();
         this.rd = new Read();
     }
